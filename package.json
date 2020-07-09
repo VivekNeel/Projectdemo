@@ -15,7 +15,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint:check": "eslint --ext .js --ext .jsx ."
+    "lint:check": "eslint --ext .js --ext .jsx .",
+    "flow:check": "flow check"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,9 +35,9 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.4.0",
     "eslint-plugin-flowtype": "^5.2.0",
     "eslint-plugin-jest": "^23.18.0",
-    "eslint-plugin-react": "^7.20.3"
+    "eslint-plugin-react": "^7.20.3",
+    "flow-bin": "^0.129.0"
   }
 }
